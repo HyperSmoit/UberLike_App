@@ -1,12 +1,9 @@
-// Copyright 2019 SD_Homework_Team
-
 #include <iostream>
 #include <fstream>
 #include <string>
 #include <iomanip>
 #include <chrono>  // NOLINT(build/c++11)
 #include "./solver.h"
-// DO NOT MODIFY THIS FILE
 
 float call_solver(std::ifstream& fin, int task, solver* s,
                   std::string filename) {

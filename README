@@ -1,0 +1,25 @@
+
+        I created a Graph class where each node was a vector of ints
+    storing node's neighbors. I used a Hashtable for each intersection
+    to make it's storing easier, returning an int value;
+ 
+        I checked if there's a road between the starting node and the end node.
+    If so, i displayed 'y', otherwise, i displayed 'n';
+         Almost identically to the previous task, i checked if there's a road
+    between 2 given nodes. If so, i found and displayed distance, otherwise
+    i displayed "-1".
+        Depending on the first character of the row(so called decision in
+    my function) i started doing what i have been asked in the task.
+    Adding a road, making a bidirectional road, removing a road.
+    The Queries that started with 'q' have been done in the same way the first
+    2 tasks have been done.
+
+
+
+
+
+
+
+
+
+

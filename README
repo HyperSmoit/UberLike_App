@@ -12,7 +12,8 @@
     my function) i started doing what i have been asked in the task.
     Adding a road, making a bidirectional road, removing a road.
     The Queries that started with 'q' have been done in the same way the first
-    2 tasks have been done.
+    2 tasks have been done. Driver make decision either he can go to a client or not
+    depending on his location, road accesibility or fuel left in the tank.
 
 
 

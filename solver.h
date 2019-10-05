@@ -1,5 +1,3 @@
-// Copyright 2019 SD_Homework_Team
-
 #ifndef SOLVER_H_
 #define SOLVER_H_
 #include <fstream>
@@ -134,12 +132,7 @@ void top_calls(std::ifstream& fin, std::vector<Cabs>&Drivers,
         }
         std::cout << '\n';
     }
-}
-// void take_rides(std::ifstream& fin, std::vector<Cabs>&Drivers,
-// 	int nr_drivers) {
-// 	std::string start, end, rating;
-// 	fin >> start >> end >> rating;
-// }
+
 class solver {
     int n;
     Graph *G;
@@ -278,15 +271,6 @@ class solver {
             delete G;
             delete Hash;
         }
-       void task4_solver(std::ifstream& fin, std::ofstream& fout) {
-       std::string str;
-       fin >> str;
-       fout <<' ';
-       }
-       void task5_solver(std::ifstream& fin, std::ofstream& fout) {
-       std::string str;
-       fin >> str;
-       fout << ' ';}
 };
 
 #endif  // SOLVER_H_
